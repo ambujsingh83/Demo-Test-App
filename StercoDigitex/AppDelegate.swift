@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,GIDSignInDelegate {
         // Override point for customization after application launch.
         //
         // Initialize sign-in
-        GIDSignIn.sharedInstance().clientID = "557240583034-t5aaurlc6ln5rol1omr5qkaukto96ma6.apps.googleusercontent.com"
+      
         GIDSignIn.sharedInstance().delegate = self
         return true
     }
