@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A2B40BFC300552B3E478729 /* Pods_StercoDigitexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BC2A3C0D45E32581D80BC4 /* Pods_StercoDigitexTests.framework */; };
+		B73DB448217B589E001AD122 /* MobileNumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73DB447217B589E001AD122 /* MobileNumViewController.swift */; };
+		B73DB44A217B7DF0001AD122 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73DB449217B7DF0001AD122 /* UserProfileViewController.swift */; };
+		B7957350217B49AC000681F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B795734F217B49AC000681F7 /* AppDelegate.swift */; };
+		B7957352217B49AC000681F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7957351217B49AC000681F7 /* ViewController.swift */; };
+		B7957355217B49AC000681F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7957353217B49AC000681F7 /* Main.storyboard */; };
+		B7957358217B49AC000681F7 /* StercoDigitex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7957356217B49AC000681F7 /* StercoDigitex.xcdatamodeld */; };
+		B795735A217B49B2000681F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7957359217B49B2000681F7 /* Assets.xcassets */; };
+		B795735D217B49B2000681F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B795735B217B49B2000681F7 /* LaunchScreen.storyboard */; };
+		B7957368217B49B2000681F7 /* StercoDigitexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7957367217B49B2000681F7 /* StercoDigitexTests.swift */; };
+		B7957373217B49B2000681F7 /* StercoDigitexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7957372217B49B2000681F7 /* StercoDigitexUITests.swift */; };
+		BA008F6E182C783523B0D654 /* Pods_StercoDigitex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056E3CC989BDEC37AD80E23 /* Pods_StercoDigitex.framework */; };
+		D0163BB8B470DDF382853B88 /* Pods_StercoDigitexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA92A1D1B163A496D78EF01B /* Pods_StercoDigitexUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7957364217B49B2000681F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7957344217B49AC000681F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B795734B217B49AC000681F7;
+			remoteInfo = StercoDigitex;
+		};
+		B795736F217B49B2000681F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7957344217B49AC000681F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B795734B217B49AC000681F7;
+			remoteInfo = StercoDigitex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0056E3CC989BDEC37AD80E23 /* Pods_StercoDigitex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StercoDigitex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		276928AB2C7CD834831A2457 /* Pods-StercoDigitexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StercoDigitexUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StercoDigitexUITests/Pods-StercoDigitexUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7322C0235ECF79F8B331D99A /* Pods-StercoDigitexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StercoDigitexUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StercoDigitexUITests/Pods-StercoDigitexUITests.release.xcconfig"; sourceTree = "<group>"; };
+		904B431C22D0226D3828EAA7 /* Pods-StercoDigitex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StercoDigitex.release.xcconfig"; path = "Pods/Target Support Files/Pods-StercoDigitex/Pods-StercoDigitex.release.xcconfig"; sourceTree = "<group>"; };
+		B73DB447217B589E001AD122 /* MobileNumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNumViewController.swift; sourceTree = "<group>"; };
+		B73DB449217B7DF0001AD122 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		B795734C217B49AC000681F7 /* StercoDigitex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StercoDigitex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B795734F217B49AC000681F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7957351217B49AC000681F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7957354217B49AC000681F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7957357217B49AC000681F7 /* StercoDigitex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StercoDigitex.xcdatamodel; sourceTree = "<group>"; };
+		B7957359217B49B2000681F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B795735C217B49B2000681F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B795735E217B49B2000681F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7957363217B49B2000681F7 /* StercoDigitexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StercoDigitexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7957367217B49B2000681F7 /* StercoDigitexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StercoDigitexTests.swift; sourceTree = "<group>"; };
+		B7957369217B49B2000681F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B795736E217B49B2000681F7 /* StercoDigitexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StercoDigitexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7957372217B49B2000681F7 /* StercoDigitexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StercoDigitexUITests.swift; sourceTree = "<group>"; };
+		B7957374217B49B2000681F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B897451970062362119490CA /* Pods-StercoDigitex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StercoDigitex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StercoDigitex/Pods-StercoDigitex.debug.xcconfig"; sourceTree = "<group>"; };
+		C2BC2A3C0D45E32581D80BC4 /* Pods_StercoDigitexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StercoDigitexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8355F3595F480C0637665EC /* Pods-StercoDigitexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StercoDigitexTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StercoDigitexTests/Pods-StercoDigitexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA92A1D1B163A496D78EF01B /* Pods_StercoDigitexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StercoDigitexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E380073479258CD9932FBF75 /* Pods-StercoDigitexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StercoDigitexTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StercoDigitexTests/Pods-StercoDigitexTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7957349217B49AC000681F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA008F6E182C783523B0D654 /* Pods_StercoDigitex.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7957360217B49B2000681F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2B40BFC300552B3E478729 /* Pods_StercoDigitexTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B795736B217B49B2000681F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0163BB8B470DDF382853B88 /* Pods_StercoDigitexUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		312999AC4C85E466005D373C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0056E3CC989BDEC37AD80E23 /* Pods_StercoDigitex.framework */,
+				C2BC2A3C0D45E32581D80BC4 /* Pods_StercoDigitexTests.framework */,
+				CA92A1D1B163A496D78EF01B /* Pods_StercoDigitexUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7957343217B49AC000681F7 = {
+			isa = PBXGroup;
+			children = (
+				B795734E217B49AC000681F7 /* StercoDigitex */,
+				B7957366217B49B2000681F7 /* StercoDigitexTests */,
+				B7957371217B49B2000681F7 /* StercoDigitexUITests */,
+				B795734D217B49AC000681F7 /* Products */,
+				BC074C58FE31DD89EABD53EC /* Pods */,
+				312999AC4C85E466005D373C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B795734D217B49AC000681F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B795734C217B49AC000681F7 /* StercoDigitex.app */,
+				B7957363217B49B2000681F7 /* StercoDigitexTests.xctest */,
+				B795736E217B49B2000681F7 /* StercoDigitexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B795734E217B49AC000681F7 /* StercoDigitex */ = {
+			isa = PBXGroup;
+			children = (
+				B795734F217B49AC000681F7 /* AppDelegate.swift */,
+				B7957351217B49AC000681F7 /* ViewController.swift */,
+				B73DB447217B589E001AD122 /* MobileNumViewController.swift */,
+				B73DB449217B7DF0001AD122 /* UserProfileViewController.swift */,
+				B7957353217B49AC000681F7 /* Main.storyboard */,
+				B7957359217B49B2000681F7 /* Assets.xcassets */,
+				B795735B217B49B2000681F7 /* LaunchScreen.storyboard */,
+				B795735E217B49B2000681F7 /* Info.plist */,
+				B7957356217B49AC000681F7 /* StercoDigitex.xcdatamodeld */,
+			);
+			path = StercoDigitex;
+			sourceTree = "<group>";
+		};
+		B7957366217B49B2000681F7 /* StercoDigitexTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7957367217B49B2000681F7 /* StercoDigitexTests.swift */,
+				B7957369217B49B2000681F7 /* Info.plist */,
+			);
+			path = StercoDigitexTests;
+			sourceTree = "<group>";
+		};
+		B7957371217B49B2000681F7 /* StercoDigitexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7957372217B49B2000681F7 /* StercoDigitexUITests.swift */,
+				B7957374217B49B2000681F7 /* Info.plist */,
+			);
+			path = StercoDigitexUITests;
+			sourceTree = "<group>";
+		};
+		BC074C58FE31DD89EABD53EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B897451970062362119490CA /* Pods-StercoDigitex.debug.xcconfig */,
+				904B431C22D0226D3828EAA7 /* Pods-StercoDigitex.release.xcconfig */,
+				C8355F3595F480C0637665EC /* Pods-StercoDigitexTests.debug.xcconfig */,
+				E380073479258CD9932FBF75 /* Pods-StercoDigitexTests.release.xcconfig */,
+				276928AB2C7CD834831A2457 /* Pods-StercoDigitexUITests.debug.xcconfig */,
+				7322C0235ECF79F8B331D99A /* Pods-StercoDigitexUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B795734B217B49AC000681F7 /* StercoDigitex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7957377217B49B2000681F7 /* Build configuration list for PBXNativeTarget "StercoDigitex" */;
+			buildPhases = (
+				BD2D17816C50C2E1C9E3936D /* [CP] Check Pods Manifest.lock */,
+				B7957348217B49AC000681F7 /* Sources */,
+				B7957349217B49AC000681F7 /* Frameworks */,
+				B795734A217B49AC000681F7 /* Resources */,
+				69287DEE8A370B12058C0496 /* [CP] Embed Pods Frameworks */,
+				4B96606745BEF5C81E383139 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StercoDigitex;
+			productName = StercoDigitex;
+			productReference = B795734C217B49AC000681F7 /* StercoDigitex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7957362217B49B2000681F7 /* StercoDigitexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B795737A217B49B2000681F7 /* Build configuration list for PBXNativeTarget "StercoDigitexTests" */;
+			buildPhases = (
+				881EFBCC58E62E3DF35AA357 /* [CP] Check Pods Manifest.lock */,
+				B795735F217B49B2000681F7 /* Sources */,
+				B7957360217B49B2000681F7 /* Frameworks */,
+				B7957361217B49B2000681F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7957365217B49B2000681F7 /* PBXTargetDependency */,
+			);
+			name = StercoDigitexTests;
+			productName = StercoDigitexTests;
+			productReference = B7957363217B49B2000681F7 /* StercoDigitexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B795736D217B49B2000681F7 /* StercoDigitexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B795737D217B49B2000681F7 /* Build configuration list for PBXNativeTarget "StercoDigitexUITests" */;
+			buildPhases = (
+				7F6CB19EBF16DE8299DB4BA8 /* [CP] Check Pods Manifest.lock */,
+				B795736A217B49B2000681F7 /* Sources */,
+				B795736B217B49B2000681F7 /* Frameworks */,
+				B795736C217B49B2000681F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7957370217B49B2000681F7 /* PBXTargetDependency */,
+			);
+			name = StercoDigitexUITests;
+			productName = StercoDigitexUITests;
+			productReference = B795736E217B49B2000681F7 /* StercoDigitexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7957344217B49AC000681F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Ambuj Singh";
+				TargetAttributes = {
+					B795734B217B49AC000681F7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					B7957362217B49B2000681F7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B795734B217B49AC000681F7;
+					};
+					B795736D217B49B2000681F7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B795734B217B49AC000681F7;
+					};
+				};
+			};
+			buildConfigurationList = B7957347217B49AC000681F7 /* Build configuration list for PBXProject "StercoDigitex" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7957343217B49AC000681F7;
+			productRefGroup = B795734D217B49AC000681F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B795734B217B49AC000681F7 /* StercoDigitex */,
+				B7957362217B49B2000681F7 /* StercoDigitexTests */,
+				B795736D217B49B2000681F7 /* StercoDigitexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B795734A217B49AC000681F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B795735D217B49B2000681F7 /* LaunchScreen.storyboard in Resources */,
+				B795735A217B49B2000681F7 /* Assets.xcassets in Resources */,
+				B7957355217B49AC000681F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7957361217B49B2000681F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B795736C217B49B2000681F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B96606745BEF5C81E383139 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StercoDigitex/Pods-StercoDigitex-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StercoDigitex/Pods-StercoDigitex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69287DEE8A370B12058C0496 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StercoDigitex/Pods-StercoDigitex-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StercoDigitex/Pods-StercoDigitex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F6CB19EBF16DE8299DB4BA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StercoDigitexUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		881EFBCC58E62E3DF35AA357 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StercoDigitexTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD2D17816C50C2E1C9E3936D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StercoDigitex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7957348217B49AC000681F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7957352217B49AC000681F7 /* ViewController.swift in Sources */,
+				B73DB44A217B7DF0001AD122 /* UserProfileViewController.swift in Sources */,
+				B7957350217B49AC000681F7 /* AppDelegate.swift in Sources */,
+				B7957358217B49AC000681F7 /* StercoDigitex.xcdatamodeld in Sources */,
+				B73DB448217B589E001AD122 /* MobileNumViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B795735F217B49B2000681F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7957368217B49B2000681F7 /* StercoDigitexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B795736A217B49B2000681F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7957373217B49B2000681F7 /* StercoDigitexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7957365217B49B2000681F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B795734B217B49AC000681F7 /* StercoDigitex */;
+			targetProxy = B7957364217B49B2000681F7 /* PBXContainerItemProxy */;
+		};
+		B7957370217B49B2000681F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B795734B217B49AC000681F7 /* StercoDigitex */;
+			targetProxy = B795736F217B49B2000681F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7957353217B49AC000681F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7957354217B49AC000681F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B795735B217B49B2000681F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B795735C217B49B2000681F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7957375217B49B2000681F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7957376217B49B2000681F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7957378217B49B2000681F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B897451970062362119490CA /* Pods-StercoDigitex.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSF3X6RGMX;
+				INFOPLIST_FILE = StercoDigitex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StercoDigitex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7957379217B49B2000681F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904B431C22D0226D3828EAA7 /* Pods-StercoDigitex.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSF3X6RGMX;
+				INFOPLIST_FILE = StercoDigitex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StercoDigitex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B795737B217B49B2000681F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8355F3595F480C0637665EC /* Pods-StercoDigitexTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58RCK4Z27G;
+				INFOPLIST_FILE = StercoDigitexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StercoDigitexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StercoDigitex.app/StercoDigitex";
+			};
+			name = Debug;
+		};
+		B795737C217B49B2000681F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E380073479258CD9932FBF75 /* Pods-StercoDigitexTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58RCK4Z27G;
+				INFOPLIST_FILE = StercoDigitexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StercoDigitexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StercoDigitex.app/StercoDigitex";
+			};
+			name = Release;
+		};
+		B795737E217B49B2000681F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 276928AB2C7CD834831A2457 /* Pods-StercoDigitexUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58RCK4Z27G;
+				INFOPLIST_FILE = StercoDigitexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StercoDigitexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StercoDigitex;
+			};
+			name = Debug;
+		};
+		B795737F217B49B2000681F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7322C0235ECF79F8B331D99A /* Pods-StercoDigitexUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58RCK4Z27G;
+				INFOPLIST_FILE = StercoDigitexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StercoDigitexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StercoDigitex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7957347217B49AC000681F7 /* Build configuration list for PBXProject "StercoDigitex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7957375217B49B2000681F7 /* Debug */,
+				B7957376217B49B2000681F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7957377217B49B2000681F7 /* Build configuration list for PBXNativeTarget "StercoDigitex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7957378217B49B2000681F7 /* Debug */,
+				B7957379217B49B2000681F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B795737A217B49B2000681F7 /* Build configuration list for PBXNativeTarget "StercoDigitexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B795737B217B49B2000681F7 /* Debug */,
+				B795737C217B49B2000681F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B795737D217B49B2000681F7 /* Build configuration list for PBXNativeTarget "StercoDigitexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B795737E217B49B2000681F7 /* Debug */,
+				B795737F217B49B2000681F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7957356217B49AC000681F7 /* StercoDigitex.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7957357217B49AC000681F7 /* StercoDigitex.xcdatamodel */,
+			);
+			currentVersion = B7957357217B49AC000681F7 /* StercoDigitex.xcdatamodel */;
+			path = StercoDigitex.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B7957344217B49AC000681F7 /* Project object */;
+}
